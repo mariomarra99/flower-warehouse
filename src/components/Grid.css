@@ -1,0 +1,168 @@
+.grid-container {
+    display: flex;
+    position: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-container.disabled .cell {
+    cursor: not-allowed;
+    /*opacity: 0.5; /* Optional: makes the grid appear faded */
+}
+
+.grid-container.disabled .cell.selected {
+    cursor: not-allowed;
+    /* Add any other styles for selected cells if needed */
+}
+
+.grid {
+    display: grid;
+    position: center;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 2px;
+    border: 1px solid transparent;
+}
+
+.grid.simulated {
+    border: 1px solid #00FF00; /* Green border for simulation */
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell.shelf {
+    background-color: #8B4513;
+}
+
+.cell.obstacle {
+    background-color: #FFFFFF; /* Changed to white */
+}
+
+.cell.start {
+    background-color: darkgreen;
+}
+
+.cell.goal {
+    background-color: darkblue;
+}
+
+.cell.selected {
+    outline: 2px solid blue;
+}
+
+.cell.path {
+    background-color: lightblue;
+}
+
+.actions {
+    margin-top: 20px; /* Increased margin for more space */
+    display: flex;
+    gap: 10px; /* Increased gap for spacing between buttons */
+}
+
+.actions.disabled button {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info-text {
+    margin-top: 5px;
+    
+}
+
+.info-text.opaque {
+    opacity: 0.5;
+}
+
+.shelf-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between input fields */
+    margin-top: 20px;
+}
+
+.shelf-form-buttons {
+    display: flex;
+    gap: 10px; /* Space between Ok and Cancel buttons */
+}
+
+.shelf-form-buttons button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.simulation-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.simulate-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.simulate-btn.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.restart-map-btn {
+    padding: 10px 20px;
+    background-color: #f44336; /* Red color for restart map button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.start-goal-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.start-input,
+.goal-input {
+    margin-top: 10px;
+}
+
+.simulation-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.start-simulation-btn,
+.exit-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.start-simulation-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.exit-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}

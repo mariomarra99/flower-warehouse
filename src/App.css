@@ -1,0 +1,35 @@
+.app {
+    display: flex;
+}
+
+.text-box-wrapper {
+    margin-left: 20px; /* Adjust this value to move the text box away from the left edge of the page */
+    width: 100%; /* Ensure it takes full width of the container */
+    max-width: 400px; /* Set a maximum width */
+}
+
+.text-box {
+    width: 400px; /* Fixed width */
+    height: 500px; /* Increased height */
+    padding: 20px;
+    border: 1px solid #ccc;
+    overflow-y: auto; /* Enable scroll if content overflows */
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    word-wrap: break-word; /* Ensures long words break onto the next line */
+    border-radius: 5px; /* Rounded corners */
+    /*background-color: white; /* Ensure background is white */
+}
+
+.text-box h2 {
+    margin: 0 0 10px 0;
+}
+
+.info-text {
+    margin-top: 5px;
+    white-space: pre-wrap; /* Preserve whitespace formatting */
+}
+
+.placeholder {
+    opacity: 0.5;
+    color: #aaa;
+}
