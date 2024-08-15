@@ -25,8 +25,7 @@ Here are the features currently available:
  - **Flowers available**: prints the contents of the selected cells or all cells if pressed without selecting a cell.
  - **Withdrawal Simulation**: simulates picking the shelves select returning the fastest path to follow using A* . It works by selecting a start point and one or more goals.
  - **Reset Map**: restarts the set of the map. 
-## Code 
-[Here the link of the code.](https://drive.google.com/file/d/1D6Vq4nLmhdoKIy7g6Ff5jkx2921ZZ8C2/view?usp=sharing) 
+
 ## Installation requirements and setup
 Required softwares/languages and libraries:
  - Node.js, npm
