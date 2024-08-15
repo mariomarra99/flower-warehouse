@@ -36,5 +36,5 @@ Required softwares/languages and libraries:
  - Flask-Cors
  - PostgreSQL
 
-To launch the web app use 'npm run dev' in '..\src', 'python app.py' in '..\src\backend' for backend and create your server and database and insert your data on 'db_credentials.txt' in '..\src\backend'.
+Remember to insert your database data on 'db_credentials.txt' in '..\src\backend'. To launch the web app start with 'npm install' in the directory, then 'npm run dev' in '..\src', 'python app.py' in '..\src\backend' for backend and database handling. 
 
