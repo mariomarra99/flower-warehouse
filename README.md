@@ -2,6 +2,7 @@
 
 **Web app** for **data management** of a flower warehouse. **Frontend** in Javscript React (with HTML and CSS support), **backend** in Python, **database** in PostgreSQL. The goal is to create an **interactive map** of a warehouse, giving the possibility to both visualize its structure and manage the data of the objects. Another key feature is the ability to find the **optimal path** with **A***, one of the best pathfinding algorithm, which is useful in a warehouse context to optimize stack picking times.
 
+**Demo video (click on the image)**:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qP94jvGTqAg/0.jpg)](https://www.youtube.com/watch?v=qP94jvGTqAg)
 
 To get a comprehensive view of the program's capabilities and the extent of its development, I invite you to watch the video. It will be updated as the program develops. 
